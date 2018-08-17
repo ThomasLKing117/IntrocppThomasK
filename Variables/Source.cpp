@@ -24,7 +24,7 @@ int main()
 	sumA = h + t;
 	std::cout << sumA << std::endl;
 	int userInput;
-	std::cout << "Hey give me a number...\n" << std::endl;
+	std::cout << "Hey give me a number..." << std::endl;
 	std::cin >> userInput;
 	std::cout << "You entered " << userInput << std::endl;
 	
@@ -104,14 +104,87 @@ int main()
 	
 	// <Your work goes here>
 	float myVariable = 0;
-	myVariable = 78.0 * 1.8 + 32;
-	
+	myVariable = 78.0f * 1.8f + 32.0f;
+
 	std::cout << "Celsius to Fahrenheit)" << std::endl;
 	std::cout << "Celsius: " << degCelsius << std::endl;
 	std::cout << "Fahrenheit: " << myVariable << std::endl;
 	// ...
 
+	// main.cpp/main() 
+	// ...
+	// Area of a Rectangle) 
 
+	float rectWidth = 0.0f; // Modify this variable below. 
+	float rectHeight = 0.0f; // Modify this variable below. 
+	float rectArea = 0.0f; // Modify this variable below. 
+	
+	// <Your work goes here>
+
+	std::cout << "Area of a Rectangle)" << std::endl; 
+	std::cout << "Enter Height..." << std::endl;
+	std::cin >> rectHeight;
+	std::cout << "Enter Width..." << std::endl;
+	std::cin >> rectWidth;
+	std::cout << "H: " << rectHeight << " , W: " << rectWidth << std::endl;
+	std::cout << "Area: " << rectHeight * rectWidth << std::endl;
+	// ... 
+
+	// main.cpp/main() 
+	// ... 
+	
+	// Average of Five) 
+
+	float a, b, c, d, e;    // Modify these variables below. 
+	float avg;              // Modify this variable below. 
+	avg = a = b = c = d = e = 0.0f; // Initialize all to zero. 
+
+	// <Your work goes here> 
+
+	std::cout << "Average of Five)" << std::endl; 
+	std::cout << "Enter number..." << std::endl;
+	std::cin >> a;
+	std::cout << "Enter number..." << std::endl;
+	std::cin >> b;
+	std::cout << "Enter number..." << std::endl;
+	std::cin >> c;
+	std::cout << "Enter number..." << std::endl;
+	std::cin >> d;
+	std::cout << "Enter number..." << std::endl;
+	std::cin >> e;
+	std::cout << a << "," << b << "," << c << "," << d << "," << e << std::endl; 
+	std::cout << "avg: " << (a + b + c + d + e) / 5 << std::endl;
+	// ...
+
+	// main.cpp/main() 
+	// ... 
+	// Number Swap)
+	// <Your work goes here> 
+	int r;
+	int j;
+
+	std::cout << "Number Swap)" << std::endl; 
+	std::cout << "x is... " << std::endl; 
+	std::cin >> r;
+	std::cout << "y is... " << std::endl;
+	std::cin >> j;
+	std::cout << "x is, " << j << std::endl;
+	std::cout << "y is, " << r << std::endl;
+	// ...
+
+	// main.cpp/main() 
+	// ... 
+	// Fun Facts for Your Age) 
+	// <Your work can go here.> 
+	int age;
+
+	// <You must add more lines to output to the terminal> 
+	std::cout << "Your age..." << std::endl;
+	std::cin >> age;
+	std::cout << "Howdy! You are " << age << " years old!" << std::endl;
+	std::cout << "You've been alive for at least " << (age * 12) << " months, cool!" << std::endl;
+	std::cout << "You also are expected to have " << (79 - age) << " years to live! (If in the US)" << std::endl;
+	// ... 
 
 	system("pause");
 }
