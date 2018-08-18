@@ -108,8 +108,6 @@ int main()
 	{
 		// main.cpp/main()
 		// ...
-		float degCelsius = 78.0f;
-		float degFahrenheit = 0.0f; // Modify this variable below.
 
 		// <Your work goes here>
 		float celsius;
@@ -155,16 +153,8 @@ int main()
 		// <Your work goes here> 
 
 		std::cout << "Average of Five)" << std::endl;
-		std::cout << "Enter number..." << std::endl;
-		std::cin >> a;
-		std::cout << "Enter number..." << std::endl;
-		std::cin >> b;
-		std::cout << "Enter number..." << std::endl;
-		std::cin >> c;
-		std::cout << "Enter number..." << std::endl;
-		std::cin >> d;
-		std::cout << "Enter number..." << std::endl;
-		std::cin >> e;
+		std::cout << "Enter number five numbers..." << std::endl;
+		std::cin >> a >> b >> c >> d >> e;
 		std::cout << a << "," << b << "," << c << "," << d << "," << e << std::endl;
 		std::cout << "avg: " << (a + b + c + d + e) / 5 << std::endl;
 		// ...
@@ -174,15 +164,23 @@ int main()
 		// main.cpp/main() 
 		// ... 
 		// <Your work goes here> 
-		int x = 13;
-		int y = 24;
-		int a = x;
+		int x;
+		int y;
 
 		std::cout << "Number Swap)" << std::endl;
+		std::cout << "Enter x..." << std::endl;
+		std::cin >> x;
+		std::cout << "Enter y..." << std::endl;
+		std::cin >> y;
+		
+		int a = x;
+		
 		x = y;
 		y = a;
+		
 		std::cout << "x is " << x << std::endl;
 		std::cout << "y is " << y << std::endl;
+		
 		// ...
 	}
 	// Fun Facts for Your Age) 
