@@ -251,12 +251,16 @@ int main()
 		// main.cpp/main() 
 		// ... 
 		// <Your work goes here> 
-		int x = 13;
-		int y = 24;
+		int x;
+		int y;
 
 		std::cout << "Number Swap)" << std::endl;
-		std::cout << "x is " << y << std::endl; // I couldnt come up with a good guess so i just switched x with y
-		std::cout << "y is " << x << std::endl; // I couldnt come up with a good guess so i just switched y with x
+		std::cout << "Enter x..." << std::endl;
+		std::cin >> x;
+		std::cout << "Enter y..." << std::endl;
+		std::cin >> y;
+		std::cout << "x is: " << y << std::endl;
+		std::cout << "y is: " << x << std::endl;
 		// ...
 	}
 	system("pause");
