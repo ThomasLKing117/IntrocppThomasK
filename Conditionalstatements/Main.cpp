@@ -163,12 +163,12 @@ int main()
 			
 			if (x > y)
 			{
-				std::cout << "x is greater" << std::endl;
+				std::cout << "x is greater..." << std::endl;
 				std::cout << x << std::endl;
 			}
 			else if (y > x)
 			{
-				std::cout << "y is greater" << std::endl;
+				std::cout << "y is greater..." << std::endl;
 				std::cout << y << std::endl;
 			}
 			else
@@ -217,7 +217,51 @@ int main()
 		case '5':
 			//problem 5
 		{
+			int x;
+			int y;
+			
+			std::cout << "Enter x..." << std::endl;
+			std::cin >> x;
 
+			y = (x == 0) ? 0 : (10 / x);
+
+			std::cout << "y is... " << y << std::endl;
+		}
+		case '6':
+			//problem 6
+		{
+			int x;
+			int y;
+			char sign;
+			
+			std::cout << "Enter x..." << std::endl;
+			std::cin >> x;
+			std::cout << "Enter y..." << std::endl;
+			std::cin >> y;
+			std::cout << "Choose corresponding symbol..." << std::endl;
+			std::cout << "Do you want to add(+), subtract(-), multiply(*), divide(/), modulus(%)" << std::endl;
+			std::cin >> sign;
+			
+			if (sign == '+')
+			{
+				std::cout << x + y << std::endl;
+			}
+			else if (sign == '-')
+			{
+				std::cout << x - y << std::endl;
+			}
+			else if (sign == '*')
+			{
+				std::cout << x * y << std::endl;
+			}
+			else if (sign == '/')
+			{
+				std::cout << x / y << std::endl;
+			}
+			else if (sign == '%')
+			{
+				std::cout << x % y << std::endl;
+			}
 		}
 		default:
 			break;

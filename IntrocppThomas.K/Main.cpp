@@ -22,6 +22,5 @@ int main()
 		number = 117;
 		std::cout << number << std::endl;
 	}
-	
 	system("pause");
 }
