@@ -134,7 +134,7 @@ int main()
 	{
 		char problem;
 		std::cout << "Home work" << std::endl;
-		std::cout << "Choose problem: (1), (2), (3), (4), (5), (6), (7), (8), (9)" << std::endl;
+		std::cout << "Choose problem: (1), (2), (3), (4), (5), (6), (7)" << std::endl;
 		std::cin >> problem;
 		switch (problem)
 		{
@@ -226,6 +226,8 @@ int main()
 			y = (x == 0) ? 0 : (10 / x);
 
 			std::cout << "y is... " << y << std::endl;
+		
+			break;
 		}
 		case '6':
 			//problem 6
@@ -262,6 +264,40 @@ int main()
 			{
 				std::cout << x % y << std::endl;
 			}
+			break;
+		}
+		case '7':
+			//problem 7
+		{
+			int x;
+			int y;
+
+			std::cout << "What month do you want to enter?" << std::endl;
+			std::cout << "Type the corresponding number..." << std::endl;
+			std::cout << "January(1), Febuary(2), March(3), April(4), May(5), June(6)," << std::endl;
+			std::cout << "July(7), August(8), September(9), October(10), November(11), December(12)" << std::endl;
+			std::cin >> x;
+
+			y = (x == 1) ? 31 : (x == 2) ? 28 : (x == 3) ? 31 : (x == 4) ? 30 : (x == 5) ? 31 : (x == 6) ? 30 :
+				(x == 7) ? 31 : (x == 8) ? 31 : (x == 9) ? 30 : (x == 10) ? 31 : (x == 11) ? 30 : (x == 12) ? 31 : 0;
+			if (y == 0)
+			{
+				std::cout << "Error" << std::endl;
+			}
+			std::cout << "There are " << y << " days in this month" << std::endl;
+			break;
+		}
+			//problem 8
+		{
+
+		}
+			//problem 9
+		{
+			//a. True
+			//b. False
+			//c. False
+			//d. True
+			//e. True
 		}
 		default:
 			break;
