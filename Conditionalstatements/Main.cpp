@@ -180,7 +180,2993 @@ int main()
 		case '3':
 			//Problem 3
 		{
+			int a, b, c, d, e, sum;
 
+			std::cout << "Enter five numbers..." << std::endl;
+			std::cin >> a >> b >> c >> d >> e;
+
+			sum = a + b + c + d + e;
+
+			if (sum > 0)
+
+			{
+
+				if (a >= b && a >= c && a >= d && a >= e)
+
+				{
+
+					if (b >= c && b >= d && b >= e)
+
+					{
+
+						if (c >= d && c >= e)
+
+						{
+
+							if (d >= e)
+
+							{
+
+								std::cout << e << "\n" << d << "\n" << c << "\n" << b << "\n" << a << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << d << "\n" << e << "\n" << c << "\n" << b << "\n" << a << std::endl;
+
+							}
+
+						}
+
+						else if (d >= c && d >= e)
+
+						{
+
+							if (c >= e)
+
+							{
+
+								std::cout << e << "\n" << c << "\n" << d << "\n" << b << "\n" << a << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << c << "\n" << e << "\n" << d << "\n" << b << "\n" << a << std::endl;
+
+							}
+
+						}
+
+						else
+
+						{
+
+							if (c >= d)
+
+							{
+
+								std::cout << d << "\n" << c << "\n" << e << "\n" << b << "\n" << a << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << c << "\n" << d << "\n" << e << "\n" << b << "\n" << a << std::endl;
+
+							}
+
+						}
+
+
+
+					}
+
+					else if (c >= b && c >= d && c >= e)
+
+					{
+
+						if (b >= d && b >= e)
+
+						{
+
+							if (d >= e)
+
+							{
+
+								std::cout << e << "\n" << d << "\n" << b << "\n" << c << "\n" << a << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << d << "\n" << e << "\n" << b << "\n" << c << "\n" << a << std::endl;
+
+							}
+
+						}
+
+						else if (d >= b && d >= e)
+
+						{
+
+							if (b >= e)
+
+							{
+
+								std::cout << e << "\n" << b << "\n" << d << "\n" << c << "\n" << a << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << b << "\n" << e << "\n" << d << "\n" << c << "\n" << a << std::endl;
+
+							}
+
+						}
+
+						else
+
+						{
+
+							if (b >= d)
+
+							{
+
+								std::cout << d << "\n" << b << "\n" << e << "\n" << c << "\n" << a << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << b << "\n" << d << "\n" << e << "\n" << c << "\n" << a << std::endl;
+
+							}
+
+						}
+
+					}
+
+					else if (d >= b && d >= c && d >= e)
+
+					{
+
+						if (b >= c && b >= e)
+
+						{
+
+							if (c >= e)
+
+							{
+
+								std::cout << e << "\n" << c << "\n" << b << "\n" << d << "\n" << a << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << c << "\n" << e << "\n" << b << "\n" << d << "\n" << a << std::endl;
+
+							}
+
+						}
+
+						else if (c >= b && c >= e)
+
+						{
+
+							if (b >= e)
+
+							{
+
+								std::cout << e << "\n" << b << "\n" << c << "\n" << d << "\n" << a << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << b << "\n" << e << "\n" << c << "\n" << d << "\n" << a << std::endl;
+
+							}
+
+						}
+
+						else
+
+						{
+
+							if (b >= c)
+
+							{
+
+								std::cout << c << "\n" << b << "\n" << e << "\n" << d << "\n" << a << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << b << "\n" << c << "\n" << e << "\n" << d << "\n" << a << std::endl;
+
+							}
+
+						}
+
+					}
+
+					else
+
+					{
+
+						if (b >= c && b >= d)
+
+						{
+
+							if (c >= d)
+
+							{
+
+								std::cout << d << "\n" << c << "\n" << b << "\n" << e << "\n" << a << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << c << "\n" << d << "\n" << b << "\n" << e << "\n" << a << std::endl;
+
+							}
+
+						}
+
+						else if (c >= b && c >= d)
+
+						{
+
+							if (b >= d)
+
+							{
+
+								std::cout << d << "\n" << b << "\n" << c << "\n" << e << "\n" << a << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << b << "\n" << d << "\n" << c << "\n" << e << "\n" << a << std::endl;
+
+							}
+
+						}
+
+						else
+
+						{
+
+							if (b >= c)
+
+							{
+
+								std::cout << b << "\n" << b << "\n" << d << "\n" << e << "\n" << a << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << b << "\n" << c << "\n" << d << "\n" << e << "\n" << a << std::endl;
+
+							}
+
+						}
+
+					}
+
+				}
+
+				else if (b >= a && b >= c && b >= d && b >= e)
+
+				{
+
+					if (a >= c && a >= d && a >= e)
+
+					{
+
+						if (c >= d && c >= e)
+
+						{
+
+							if (d >= e)
+
+							{
+
+								std::cout << e << "\n" << d << "\n" << c << "\n" << a << "\n" << b << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << d << "\n" << e << "\n" << c << "\n" << a << "\n" << b << std::endl;
+
+							}
+
+						}
+
+						else if (d >= c && d >= e)
+
+						{
+
+							if (c >= e)
+
+							{
+
+								std::cout << e << "\n" << c << "\n" << d << "\n" << a << "\n" << b << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << c << "\n" << e << "\n" << d << "\n" << a << "\n" << b << std::endl;
+
+							}
+
+						}
+
+						else
+
+						{
+
+							if (c >= d)
+
+							{
+
+								std::cout << d << "\n" << c << "\n" << e << "\n" << a << "\n" << b << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << c << "\n" << d << "\n" << e << "\n" << a << "\n" << b << std::endl;
+
+							}
+
+						}
+
+
+
+					}
+
+					else if (c >= a && c >= d && c >= e)
+
+					{
+
+						if (a >= d && a >= e)
+
+						{
+
+							if (d >= e)
+
+							{
+
+								std::cout << e << "\n" << d << "\n" << a << "\n" << c << "\n" << b << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << d << "\n" << e << "\n" << a << "\n" << c << "\n" << b << std::endl;
+
+							}
+
+						}
+
+						else if (d >= a && d >= e)
+
+						{
+
+							if (a >= e)
+
+							{
+
+								std::cout << e << "\n" << a << "\n" << d << "\n" << c << "\n" << b << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << a << "\n" << e << "\n" << d << "\n" << c << "\n" << b << std::endl;
+
+							}
+
+						}
+
+						else
+
+						{
+
+							if (a >= d)
+
+							{
+
+								std::cout << d << "\n" << a << "\n" << e << "\n" << c << "\n" << b << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << a << "\n" << d << "\n" << e << "\n" << c << "\n" << b << std::endl;
+
+							}
+
+						}
+
+					}
+
+					else if (d >= a && d >= c && d >= e)
+
+					{
+
+						if (a >= c && a >= e)
+
+						{
+
+							if (c >= e)
+
+							{
+
+								std::cout << e << "\n" << c << "\n" << a << "\n" << d << "\n" << b << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << c << "\n" << e << "\n" << a << "\n" << d << "\n" << b << std::endl;
+
+							}
+
+						}
+
+						else if (c >= a && c >= e)
+
+						{
+
+							if (a >= e)
+
+							{
+
+								std::cout << e << "\n" << a << "\n" << c << "\n" << d << "\n" << b << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << a << "\n" << e << "\n" << c << "\n" << d << "\n" << b << std::endl;
+
+							}
+
+						}
+
+						else
+
+						{
+
+							if (a >= c)
+
+							{
+
+								std::cout << c << "\n" << a << "\n" << e << "\n" << d << "\n" << b << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << a << "\n" << c << "\n" << e << "\n" << d << "\n" << b << std::endl;
+
+							}
+
+						}
+
+					}
+
+					else
+
+					{
+
+						if (a >= c && a >= d)
+
+						{
+
+							if (c >= d)
+
+							{
+
+								std::cout << d << "\n" << c << "\n" << a << "\n" << e << "\n" << b << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << c << "\n" << d << "\n" << a << "\n" << e << "\n" << b << std::endl;
+
+							}
+
+						}
+
+						else if (c >= a && c >= d)
+
+						{
+
+							if (a >= d)
+
+							{
+
+								std::cout << d << "\n" << a << "\n" << c << "\n" << e << "\n" << b << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << a << "\n" << d << "\n" << c << "\n" << e << "\n" << b << std::endl;
+
+							}
+
+						}
+
+						else
+
+						{
+
+							if (a >= c)
+
+							{
+
+								std::cout << c << "\n" << a << "\n" << d << "\n" << e << "\n" << b << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << a << "\n" << c << "\n" << d << "\n" << e << "\n" << b << std::endl;
+
+							}
+
+						}
+
+					}
+
+				}
+
+				else if (c >= a && c >= b && c >= d && c >= e)
+
+				{
+
+					if (a >= b && a >= d && a >= e)
+
+					{
+
+						if (b >= d && b >= e)
+
+						{
+
+							if (d >= e)
+
+							{
+
+								std::cout << e << "\n" << d << "\n" << b << "\n" << a << "\n" << c << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << d << "\n" << e << "\n" << b << "\n" << a << "\n" << c << std::endl;
+
+							}
+
+						}
+
+						else if (d >= b && d >= e)
+
+						{
+
+							if (b >= e)
+
+							{
+
+								std::cout << e << "\n" << b << "\n" << d << "\n" << a << "\n" << c << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << b << "\n" << e << "\n" << d << "\n" << a << "\n" << c << std::endl;
+
+							}
+
+						}
+
+						else
+
+						{
+
+							if (b >= d)
+
+							{
+
+								std::cout << d << "\n" << b << "\n" << e << "\n" << a << "\n" << c << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << b << "\n" << d << "\n" << e << "\n" << a << "\n" << c << std::endl;
+
+							}
+
+						}
+
+
+
+					}
+
+					else if (b >= a && b >= d && b >= e)
+
+					{
+
+						if (a >= d && a >= e)
+
+						{
+
+							if (d >= e)
+
+							{
+
+								std::cout << e << "\n" << d << "\n" << a << "\n" << b << "\n" << c << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << d << "\n" << e << "\n" << a << "\n" << b << "\n" << c << std::endl;
+
+							}
+
+						}
+
+						else if (d >= a && d >= e)
+
+						{
+
+							if (a >= e)
+
+							{
+
+								std::cout << e << "\n" << a << "\n" << d << "\n" << b << "\n" << c << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << a << "\n" << e << "\n" << d << "\n" << b << "\n" << c << std::endl;
+
+							}
+
+						}
+
+						else
+
+						{
+
+							if (a >= d)
+
+							{
+
+								std::cout << d << "\n" << a << "\n" << e << "\n" << b << "\n" << c << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << a << "\n" << d << "\n" << e << "\n" << b << "\n" << c << std::endl;
+
+							}
+
+						}
+
+					}
+
+					else if (d >= a && d >= b && d >= e)
+
+					{
+
+						if (a >= b && a >= e)
+
+						{
+
+							if (b >= e)
+
+							{
+
+								std::cout << e << "\n" << b << "\n" << a << "\n" << d << "\n" << c << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << b << "\n" << e << "\n" << a << "\n" << d << "\n" << c << std::endl;
+
+							}
+
+						}
+
+						else if (b >= a && b >= e)
+
+						{
+
+							if (a >= e)
+
+							{
+
+								std::cout << e << "\n" << a << "\n" << b << "\n" << d << "\n" << c << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << a << "\n" << e << "\n" << b << "\n" << d << "\n" << c << std::endl;
+
+							}
+
+						}
+
+						else
+
+						{
+
+							if (a >= b)
+
+							{
+
+								std::cout << b << "\n" << a << "\n" << e << "\n" << d << "\n" << c << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << a << "\n" << b << "\n" << e << "\n" << d << "\n" << c << std::endl;
+
+							}
+
+						}
+
+					}
+
+					else
+
+					{
+
+						if (a >= b && a >= d)
+
+						{
+
+							if (b >= d)
+
+							{
+
+								std::cout << d << "\n" << b << "\n" << a << "\n" << e << "\n" << c << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << b << "\n" << d << "\n" << a << "\n" << e << "\n" << c << std::endl;
+
+							}
+
+						}
+
+						else if (b >= a && b >= d)
+
+						{
+
+							if (a >= d)
+
+							{
+
+								std::cout << d << "\n" << a << "\n" << b << "\n" << e << "\n" << c << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << a << "\n" << d << "\n" << b << "\n" << e << "\n" << c << std::endl;
+
+							}
+
+						}
+
+						else
+
+						{
+
+							if (a >= b)
+
+							{
+
+								std::cout << b << "\n" << a << "\n" << d << "\n" << e << "\n" << c << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << a << "\n" << b << "\n" << d << "\n" << e << "\n" << c << std::endl;
+
+							}
+
+						}
+
+					}
+
+				}
+
+				else if (d >= a && d >= b && d >= c && d >= e)
+
+				{
+
+					if (a >= b && a >= c && a >= e)
+
+					{
+
+						if (b >= c && b >= e)
+
+						{
+
+							if (c >= e)
+
+							{
+
+								std::cout << e << "\n" << c << "\n" << b << "\n" << a << "\n" << d << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << c << "\n" << e << "\n" << b << "\n" << a << "\n" << d << std::endl;
+
+							}
+
+						}
+
+						else if (c >= b && c >= e)
+
+						{
+
+							if (b >= e)
+
+							{
+
+								std::cout << e << "\n" << b << "\n" << c << "\n" << a << "\n" << d << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << b << "\n" << e << "\n" << c << "\n" << a << "\n" << d << std::endl;
+
+							}
+
+						}
+
+						else
+
+						{
+
+							if (b >= c)
+
+							{
+
+								std::cout << c << "\n" << b << "\n" << e << "\n" << a << "\n" << d << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << b << "\n" << c << "\n" << e << "\n" << a << "\n" << d << std::endl;
+
+							}
+
+						}
+
+
+
+					}
+
+					else if (b >= a && b >= c && b >= e)
+
+					{
+
+						if (a >= c && a >= e)
+
+						{
+
+							if (c >= e)
+
+							{
+
+								std::cout << e << "\n" << c << "\n" << a << "\n" << b << "\n" << d << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << c << "\n" << e << "\n" << a << "\n" << b << "\n" << d << std::endl;
+
+							}
+
+						}
+
+						else if (c >= a && c >= e)
+
+						{
+
+							if (a >= e)
+
+							{
+
+								std::cout << e << "\n" << a << "\n" << c << "\n" << b << "\n" << d << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << a << "\n" << e << "\n" << c << "\n" << b << "\n" << d << std::endl;
+
+							}
+
+						}
+
+						else
+
+						{
+
+							if (a >= c)
+
+							{
+
+								std::cout << c << "\n" << a << "\n" << e << "\n" << b << "\n" << d << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << a << "\n" << c << "\n" << e << "\n" << b << "\n" << d << std::endl;
+
+							}
+
+						}
+
+					}
+
+					else if (c >= a && c >= b && c >= e)
+
+					{
+
+						if (a >= b && a >= e)
+
+						{
+
+							if (b >= e)
+
+							{
+
+								std::cout << e << "\n" << b << "\n" << a << "\n" << c << "\n" << d << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << b << "\n" << e << "\n" << a << "\n" << c << "\n" << d << std::endl;
+
+							}
+
+						}
+
+						else if (b >= a && b >= e)
+
+						{
+
+							if (a >= e)
+
+							{
+
+								std::cout << e << "\n" << a << "\n" << b << "\n" << c << "\n" << d << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << a << "\n" << e << "\n" << b << "\n" << c << "\n" << d << std::endl;
+
+							}
+
+						}
+
+						else
+
+						{
+
+							if (a >= b)
+
+							{
+
+								std::cout << b << "\n" << a << "\n" << e << "\n" << c << "\n" << d << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << a << "\n" << b << "\n" << e << "\n" << c << "\n" << d << std::endl;
+
+							}
+
+						}
+
+					}
+
+					else
+
+					{
+
+						if (a >= b && a >= c)
+
+						{
+
+							if (b >= c)
+
+							{
+
+								std::cout << c << "\n" << b << "\n" << a << "\n" << e << "\n" << d << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << b << "\n" << c << "\n" << a << "\n" << e << "\n" << d << std::endl;
+
+							}
+
+						}
+
+						else if (b >= a && b >= c)
+
+						{
+
+							if (a >= c)
+
+							{
+
+								std::cout << c << "\n" << a << "\n" << b << "\n" << e << "\n" << d << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << a << "\n" << c << "\n" << b << "\n" << e << "\n" << d << std::endl;
+
+							}
+
+						}
+
+						else
+
+						{
+
+							if (a >= b)
+
+							{
+
+								std::cout << b << "\n" << a << "\n" << c << "\n" << e << "\n" << d << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << a << "\n" << b << "\n" << c << "\n" << e << "\n" << d << std::endl;
+
+							}
+
+						}
+
+					}
+
+				}
+
+				else
+
+				{
+
+					if (a >= b && a >= c && a >= d)
+
+					{
+
+						if (b >= c && b >= d)
+
+						{
+
+							if (c >= d)
+
+							{
+
+								std::cout << d << "\n" << c << "\n" << b << "\n" << a << "\n" << e << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << c << "\n" << d << "\n" << b << "\n" << a << "\n" << e << std::endl;
+
+							}
+
+						}
+
+						else if (c >= b && c >= d)
+
+						{
+
+							if (b >= d)
+
+							{
+
+								std::cout << d << "\n" << b << "\n" << c << "\n" << a << "\n" << e << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << b << "\n" << d << "\n" << c << "\n" << a << "\n" << e << std::endl;
+
+							}
+
+						}
+
+						else
+
+						{
+
+							if (b >= c)
+
+							{
+
+								std::cout << c << "\n" << b << "\n" << d << "\n" << a << "\n" << e << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << b << "\n" << c << "\n" << d << "\n" << a << "\n" << e << std::endl;
+
+							}
+
+						}
+
+
+
+					}
+
+					else if (b >= a && b >= c && b >= d)
+
+					{
+
+						if (a >= c && a >= d)
+
+						{
+
+							if (c >= d)
+
+							{
+
+								std::cout << d << "\n" << c << "\n" << a << "\n" << b << "\n" << e << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << c << "\n" << d << "\n" << a << "\n" << b << "\n" << e << std::endl;
+
+							}
+
+						}
+
+						else if (c >= a && c >= d)
+
+						{
+
+							if (a >= d)
+
+							{
+
+								std::cout << d << "\n" << a << "\n" << c << "\n" << b << "\n" << e << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << a << "\n" << d << "\n" << c << "\n" << b << "\n" << e << std::endl;
+
+							}
+
+						}
+
+						else
+
+						{
+
+							if (a >= c)
+
+							{
+
+								std::cout << c << "\n" << a << "\n" << d << "\n" << b << "\n" << e << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << a << "\n" << c << "\n" << d << "\n" << b << "\n" << e << std::endl;
+
+							}
+
+						}
+
+					}
+
+					else if (c >= a && c >= b && c >= d)
+
+					{
+
+						if (a >= b && a >= d)
+
+						{
+
+							if (b >= d)
+
+							{
+
+								std::cout << d << "\n" << b << "\n" << a << "\n" << c << "\n" << e << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << b << "\n" << d << "\n" << a << "\n" << c << "\n" << e << std::endl;
+
+							}
+
+						}
+
+						else if (b >= a && b >= d)
+
+						{
+
+							if (a >= d)
+
+							{
+
+								std::cout << d << "\n" << a << "\n" << b << "\n" << c << "\n" << e << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << a << "\n" << d << "\n" << b << "\n" << c << "\n" << e << std::endl;
+
+							}
+
+						}
+
+						else
+
+						{
+
+							if (a >= b)
+
+							{
+
+								std::cout << b << "\n" << a << "\n" << d << "\n" << c << "\n" << e << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << a << "\n" << b << "\n" << d << "\n" << c << "\n" << e << std::endl;
+
+							}
+
+						}
+
+					}
+
+					else
+
+					{
+
+						if (a >= b && a >= c)
+
+						{
+
+							if (b >= c)
+
+							{
+
+								std::cout << c << "\n" << b << "\n" << a << "\n" << d << "\n" << e << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << b << "\n" << c << "\n" << a << "\n" << d << "\n" << e << std::endl;
+
+							}
+
+						}
+
+						else if (b >= a && b >= c)
+
+						{
+
+							if (a >= c)
+
+							{
+
+								std::cout << c << "\n" << a << "\n" << b << "\n" << d << "\n" << e << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << a << "\n" << c << "\n" << b << "\n" << d << "\n" << e << std::endl;
+
+							}
+
+						}
+
+						else
+
+						{
+
+							if (a >= b)
+
+							{
+
+								std::cout << b << "\n" << a << "\n" << c << "\n" << d << "\n" << e << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << a << "\n" << b << "\n" << c << "\n" << d << "\n" << e << std::endl;
+
+							}
+
+						}
+
+					}
+
+				}
+			}
+
+			else if (sum < 0)
+
+			{
+
+				if (a >= b && a >= c && a >= d && a >= e)
+
+				{
+
+					if (b >= c && b >= d && b >= e)
+
+					{
+
+						if (c >= d && c >= e)
+
+						{
+
+							if (d >= e)
+
+							{
+
+								std::cout << a << "\n" << b << "\n" << c << "\n" << d << "\n" << e << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << a << "\n" << b << "\n" << c << "\n" << e << "\n" << d << std::endl;
+
+							}
+
+						}
+
+						else if (d >= c && d >= e)
+
+						{
+
+							if (c >= e)
+
+							{
+
+								std::cout << a << "\n" << b << "\n" << d << "\n" << c << "\n" << e << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << a << "\n" << b << "\n" << d << "\n" << e << "\n" << c << std::endl;
+
+							}
+
+						}
+
+						else
+
+						{
+
+							if (c >= d)
+
+							{
+
+								std::cout << a << "\n" << b << "\n" << e << "\n" << c << "\n" << d << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << a << "\n" << b << "\n" << e << "\n" << d << "\n" << c << std::endl;
+
+							}
+
+						}
+
+
+
+					}
+
+					else if (c >= b && c >= d && c >= e)
+
+					{
+
+						if (b >= d && b >= e)
+
+						{
+
+							if (d >= e)
+
+							{
+
+								std::cout << a << "\n" << c << "\n" << b << "\n" << d << "\n" << e << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << a << "\n" << c << "\n" << b << "\n" << e << "\n" << d << std::endl;
+
+							}
+
+						}
+
+						else if (d >= b && d >= e)
+
+						{
+
+							if (b >= e)
+
+							{
+
+								std::cout << a << "\n" << c << "\n" << d << "\n" << b << "\n" << e << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << a << "\n" << c << "\n" << d << "\n" << e << "\n" << b << std::endl;
+
+							}
+
+						}
+
+						else
+
+						{
+
+							if (b >= d)
+
+							{
+
+								std::cout << a << "\n" << c << "\n" << e << "\n" << b << "\n" << d << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << a << "\n" << c << "\n" << e << "\n" << d << "\n" << b << std::endl;
+
+							}
+
+						}
+
+					}
+
+					else if (d >= b && d >= c && d >= e)
+
+					{
+
+						if (b >= c && b >= e)
+
+						{
+
+							if (c >= e)
+
+							{
+
+								std::cout << a << "\n" << d << "\n" << b << "\n" << c << "\n" << e << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << a << "\n" << d << "\n" << b << "\n" << e << "\n" << c << std::endl;
+
+							}
+
+						}
+
+						else if (c >= b && c >= e)
+
+						{
+
+							if (b >= e)
+
+							{
+
+								std::cout << a << "\n" << d << "\n" << c << "\n" << b << "\n" << e << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << a << "\n" << d << "\n" << c << "\n" << e << "\n" << b << std::endl;
+
+							}
+
+						}
+
+						else
+
+						{
+
+							if (b >= c)
+
+							{
+
+								std::cout << a << "\n" << d << "\n" << e << "\n" << b << "\n" << c << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << a << "\n" << d << "\n" << e << "\n" << c << "\n" << b << std::endl;
+
+							}
+
+						}
+
+					}
+
+					else
+
+					{
+
+						if (b >= c && b >= d)
+
+						{
+
+							if (c >= d)
+
+							{
+
+								std::cout << a << "\n" << e << "\n" << b << "\n" << c << "\n" << d << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << a << "\n" << e << "\n" << b << "\n" << d << "\n" << c << std::endl;
+
+							}
+
+						}
+
+						else if (c >= b && c >= d)
+
+						{
+
+							if (b >= d)
+
+							{
+
+								std::cout << a << "\n" << e << "\n" << c << "\n" << b << "\n" << d << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << a << "\n" << e << "\n" << c << "\n" << d << "\n" << b << std::endl;
+
+							}
+
+						}
+
+						else
+
+						{
+
+							if (b >= c)
+
+							{
+
+								std::cout << a << "\n" << e << "\n" << d << "\n" << b << "\n" << c << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << a << "\n" << e << "\n" << d << "\n" << c << "\n" << b << std::endl;
+
+							}
+
+						}
+
+					}
+
+				}
+
+				else if (b >= a && b >= c && b >= d && b >= e)
+
+				{
+
+					if (a >= c && a >= d && a >= e)
+
+					{
+
+						if (c >= d && c >= e)
+
+						{
+
+							if (d >= e)
+
+							{
+
+								std::cout << b << "\n" << a << "\n" << c << "\n" << d << "\n" << e << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << b << "\n" << a << "\n" << c << "\n" << e << "\n" << d << std::endl;
+
+							}
+
+						}
+
+						else if (d >= c && d >= e)
+
+						{
+
+							if (c >= e)
+
+							{
+
+								std::cout << b << "\n" << a << "\n" << d << "\n" << c << "\n" << e << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << b << "\n" << a << "\n" << d << "\n" << e << "\n" << c << std::endl;
+
+							}
+
+						}
+
+						else
+
+						{
+
+							if (c >= d)
+
+							{
+
+								std::cout << b << "\n" << a << "\n" << e << "\n" << c << "\n" << d << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << b << "\n" << a << "\n" << e << "\n" << d << "\n" << c << std::endl;
+
+							}
+
+						}
+
+
+
+					}
+
+					else if (c >= a && c >= d && c >= e)
+
+					{
+
+						if (a >= d && a >= e)
+
+						{
+
+							if (d >= e)
+
+							{
+
+								std::cout << b << "\n" << c << "\n" << a << "\n" << d << "\n" << e << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << b << "\n" << c << "\n" << a << "\n" << e << "\n" << d << std::endl;
+
+							}
+
+						}
+
+						else if (d >= a && d >= e)
+
+						{
+
+							if (a >= e)
+
+							{
+
+								std::cout << b << "\n" << c << "\n" << d << "\n" << a << "\n" << e << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << b << "\n" << c << "\n" << d << "\n" << e << "\n" << a << std::endl;
+
+							}
+
+						}
+
+						else
+
+						{
+
+							if (a >= d)
+
+							{
+
+								std::cout << b << "\n" << c << "\n" << e << "\n" << a << "\n" << d << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << b << "\n" << c << "\n" << e << "\n" << d << "\n" << a << std::endl;
+
+							}
+
+						}
+
+					}
+
+					else if (d >= a && d >= c && d >= e)
+
+					{
+
+						if (a >= c && a >= e)
+
+						{
+
+							if (c >= e)
+
+							{
+
+								std::cout << b << "\n" << d << "\n" << a << "\n" << c << "\n" << e << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << b << "\n" << d << "\n" << a << "\n" << e << "\n" << c << std::endl;
+
+							}
+
+						}
+
+						else if (c >= a && c >= e)
+
+						{
+
+							if (a >= e)
+
+							{
+
+								std::cout << b << "\n" << d << "\n" << c << "\n" << a << "\n" << e << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << b << "\n" << d << "\n" << c << "\n" << e << "\n" << a << std::endl;
+
+							}
+
+						}
+
+						else
+
+						{
+
+							if (a >= c)
+
+							{
+
+								std::cout << b << "\n" << d << "\n" << e << "\n" << a << "\n" << c << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << b << "\n" << d << "\n" << e << "\n" << c << "\n" << a << std::endl;
+
+							}
+
+						}
+
+					}
+
+					else
+
+					{
+
+						if (a >= c && a >= d)
+
+						{
+
+							if (c >= d)
+
+							{
+
+								std::cout << b << "\n" << e << "\n" << a << "\n" << c << "\n" << d << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << b << "\n" << e << "\n" << a << "\n" << d << "\n" << c << std::endl;
+
+							}
+
+						}
+
+						else if (c >= a && c >= d)
+
+						{
+
+							if (a >= d)
+
+							{
+
+								std::cout << b << "\n" << e << "\n" << c << "\n" << a << "\n" << d << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << b << "\n" << e << "\n" << c << "\n" << d << "\n" << a << std::endl;
+
+							}
+
+						}
+
+						else
+
+						{
+
+							if (a >= c)
+
+							{
+
+								std::cout << b << "\n" << e << "\n" << d << "\n" << a << "\n" << c << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << b << "\n" << e << "\n" << d << "\n" << c << "\n" << a << std::endl;
+
+							}
+
+						}
+
+					}
+
+				}
+
+				else if (c >= a && c >= b && c >= d && c >= e)
+
+				{
+
+					if (a >= b && a >= d && a >= e)
+
+					{
+
+						if (b >= d && b >= e)
+
+						{
+
+							if (d >= e)
+
+							{
+
+								std::cout << c << "\n" << a << "\n" << b << "\n" << d << "\n" << e << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << c << "\n" << a << "\n" << b << "\n" << e << "\n" << d << std::endl;
+
+							}
+
+						}
+
+						else if (d >= b && d >= e)
+
+						{
+
+							if (b >= e)
+
+							{
+
+								std::cout << c << "\n" << a << "\n" << d << "\n" << b << "\n" << e << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << c << "\n" << a << "\n" << d << "\n" << e << "\n" << b << std::endl;
+
+							}
+
+						}
+
+						else
+
+						{
+
+							if (b >= d)
+
+							{
+
+								std::cout << c << "\n" << a << "\n" << e << "\n" << b << "\n" << d << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << c << "\n" << a << "\n" << e << "\n" << d << "\n" << b << std::endl;
+
+							}
+
+						}
+
+
+
+					}
+
+					else if (b >= a && b >= d && b >= e)
+
+					{
+
+						if (a >= d && a >= e)
+
+						{
+
+							if (d >= e)
+
+							{
+
+								std::cout << c << "\n" << b << "\n" << a << "\n" << d << "\n" << e << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << c << "\n" << b << "\n" << a << "\n" << e << "\n" << d << std::endl;
+
+							}
+
+						}
+
+						else if (d >= a && d >= e)
+
+						{
+
+							if (a >= e)
+
+							{
+
+								std::cout << c << "\n" << b << "\n" << d << "\n" << a << "\n" << e << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << c << "\n" << b << "\n" << d << "\n" << e << "\n" << a << std::endl;
+
+							}
+
+						}
+
+						else
+
+						{
+
+							if (a >= d)
+
+							{
+
+								std::cout << c << "\n" << b << "\n" << e << "\n" << a << "\n" << d << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << c << "\n" << b << "\n" << e << "\n" << d << "\n" << a << std::endl;
+
+							}
+
+						}
+
+					}
+
+					else if (d >= a && d >= b && d >= e)
+
+					{
+
+						if (a >= b && a >= e)
+
+						{
+
+							if (b >= e)
+
+							{
+
+								std::cout << c << "\n" << d << "\n" << a << "\n" << b << "\n" << e << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << c << "\n" << d << "\n" << a << "\n" << e << "\n" << b << std::endl;
+
+							}
+
+						}
+
+						else if (b >= a && b >= e)
+
+						{
+
+							if (a >= e)
+
+							{
+
+								std::cout << c << "\n" << d << "\n" << b << "\n" << a << "\n" << e << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << c << "\n" << d << "\n" << b << "\n" << e << "\n" << a << std::endl;
+
+							}
+
+						}
+
+						else
+
+						{
+
+							if (a >= b)
+
+							{
+
+								std::cout << c << "\n" << d << "\n" << e << "\n" << a << "\n" << b << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << c << "\n" << d << "\n" << e << "\n" << b << "\n" << a << std::endl;
+
+							}
+
+						}
+
+					}
+
+					else
+
+					{
+
+						if (a >= b && a >= d)
+
+						{
+
+							if (b >= d)
+
+							{
+
+								std::cout << c << "\n" << e << "\n" << a << "\n" << b << "\n" << d << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << c << "\n" << e << "\n" << a << "\n" << d << "\n" << b << std::endl;
+
+							}
+
+						}
+
+						else if (b >= a && b >= d)
+
+						{
+
+							if (a >= d)
+
+							{
+
+								std::cout << c << "\n" << e << "\n" << b << "\n" << a << "\n" << d << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << c << "\n" << e << "\n" << b << "\n" << d << "\n" << a << std::endl;
+
+							}
+
+						}
+
+						else
+
+						{
+
+							if (a >= b)
+
+							{
+
+								std::cout << c << "\n" << e << "\n" << d << "\n" << a << "\n" << b << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << c << "\n" << e << "\n" << d << "\n" << b << "\n" << a << std::endl;
+
+							}
+
+						}
+
+					}
+
+				}
+
+				else if (d >= a && d >= b && d >= c && d >= e)
+
+				{
+
+					if (a >= b && a >= c && a >= e)
+
+					{
+
+						if (b >= c && b >= e)
+
+						{
+
+							if (c >= e)
+
+							{
+
+								std::cout << d << "\n" << a << "\n" << b << "\n" << c << "\n" << e << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << d << "\n" << a << "\n" << b << "\n" << e << "\n" << c << std::endl;
+
+							}
+
+						}
+
+						else if (c >= b && c >= e)
+
+						{
+
+							if (b >= e)
+
+							{
+
+								std::cout << d << "\n" << a << "\n" << c << "\n" << b << "\n" << e << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << d << "\n" << a << "\n" << c << "\n" << e << "\n" << b << std::endl;
+
+							}
+
+						}
+
+						else
+
+						{
+
+							if (b >= c)
+
+							{
+
+								std::cout << d << "\n" << a << "\n" << e << "\n" << b << "\n" << c << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << d << "\n" << a << "\n" << e << "\n" << c << "\n" << b << std::endl;
+
+							}
+
+						}
+
+
+
+					}
+
+					else if (b >= a && b >= c && b >= e)
+
+					{
+
+						if (a >= c && a >= e)
+
+						{
+
+							if (c >= e)
+
+							{
+
+								std::cout << d << "\n" << b << "\n" << a << "\n" << c << "\n" << e << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << d << "\n" << b << "\n" << a << "\n" << e << "\n" << c << std::endl;
+
+							}
+
+						}
+
+						else if (c >= a && c >= e)
+
+						{
+
+							if (a >= e)
+
+							{
+
+								std::cout << d << "\n" << b << "\n" << c << "\n" << a << "\n" << e << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << d << "\n" << b << "\n" << c << "\n" << e << "\n" << a << std::endl;
+
+							}
+
+						}
+
+						else
+
+						{
+
+							if (a >= c)
+
+							{
+
+								std::cout << d << "\n" << b << "\n" << e << "\n" << a << "\n" << c << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << d << "\n" << b << "\n" << e << "\n" << c << "\n" << a << std::endl;
+
+							}
+
+						}
+
+					}
+
+					else if (c >= a && c >= b && c >= e)
+
+					{
+
+						if (a >= b && a >= e)
+
+						{
+
+							if (b >= e)
+
+							{
+
+								std::cout << d << "\n" << c << "\n" << a << "\n" << b << "\n" << e << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << d << "\n" << c << "\n" << a << "\n" << e << "\n" << b << std::endl;
+
+							}
+
+						}
+
+						else if (b >= a && b >= e)
+
+						{
+
+							if (a >= e)
+
+							{
+
+								std::cout << d << "\n" << c << "\n" << b << "\n" << a << "\n" << e << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << d << "\n" << c << "\n" << b << "\n" << e << "\n" << a << std::endl;
+
+							}
+
+						}
+
+						else
+
+						{
+
+							if (a >= b)
+
+							{
+
+								std::cout << d << "\n" << c << "\n" << e << "\n" << a << "\n" << b << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << d << "\n" << c << "\n" << e << "\n" << b << "\n" << a << std::endl;
+
+							}
+
+						}
+
+					}
+
+					else
+
+					{
+
+						if (a >= b && a >= c)
+
+						{
+
+							if (b >= c)
+
+							{
+
+								std::cout << d << "\n" << e << "\n" << a << "\n" << b << "\n" << c << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << d << "\n" << e << "\n" << a << "\n" << c << "\n" << b << std::endl;
+
+							}
+
+						}
+
+						else if (b >= a && b >= c)
+
+						{
+
+							if (a >= c)
+
+							{
+
+								std::cout << d << "\n" << e << "\n" << b << "\n" << a << "\n" << c << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << d << "\n" << e << "\n" << b << "\n" << c << "\n" << a << std::endl;
+
+							}
+
+						}
+
+						else
+
+						{
+
+							if (a >= b)
+
+							{
+
+								std::cout << d << "\n" << e << "\n" << c << "\n" << a << "\n" << b << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << d << "\n" << e << "\n" << c << "\n" << b << "\n" << a << std::endl;
+
+							}
+
+						}
+
+					}
+
+				}
+
+				else
+
+				{
+
+					if (a >= b && a >= c && a >= d)
+
+					{
+
+						if (b >= c && b >= d)
+
+						{
+
+							if (c >= d)
+
+							{
+
+								std::cout << e << "\n" << a << "\n" << b << "\n" << c << "\n" << d << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << e << "\n" << a << "\n" << b << "\n" << d << "\n" << c << std::endl;
+
+							}
+
+						}
+
+						else if (c >= b && c >= d)
+
+						{
+
+							if (b >= d)
+
+							{
+
+								std::cout << e << "\n" << a << "\n" << c << "\n" << b << "\n" << d << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << e << "\n" << a << "\n" << c << "\n" << d << "\n" << b << std::endl;
+
+							}
+
+						}
+
+						else
+
+						{
+
+							if (b >= c)
+
+							{
+
+								std::cout << e << "\n" << a << "\n" << d << "\n" << b << "\n" << c << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << e << "\n" << a << "\n" << d << "\n" << c << "\n" << b << std::endl;
+
+							}
+
+						}
+
+
+
+					}
+
+					else if (b >= a && b >= c && b >= d)
+
+					{
+
+						if (a >= c && a >= d)
+
+						{
+
+							if (c >= d)
+
+							{
+
+								std::cout << e << "\n" << b << "\n" << a << "\n" << c << "\n" << d << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << e << "\n" << b << "\n" << a << "\n" << d << "\n" << c << std::endl;
+
+							}
+
+						}
+
+						else if (c >= a && c >= d)
+
+						{
+
+							if (a >= d)
+
+							{
+
+								std::cout << e << "\n" << b << "\n" << c << "\n" << a << "\n" << d << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << e << "\n" << b << "\n" << c << "\n" << d << "\n" << a << std::endl;
+
+							}
+
+						}
+
+						else
+
+						{
+
+							if (a >= c)
+
+							{
+
+								std::cout << e << "\n" << b << "\n" << d << "\n" << a << "\n" << c << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << e << "\n" << b << "\n" << d << "\n" << c << "\n" << a << std::endl;
+
+							}
+
+						}
+
+					}
+
+					else if (c >= a && c >= b && c >= d)
+
+					{
+
+						if (a >= b && a >= d)
+
+						{
+
+							if (b >= d)
+
+							{
+
+								std::cout << e << "\n" << c << "\n" << a << "\n" << b << "\n" << d << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << e << "\n" << c << "\n" << a << "\n" << d << "\n" << b << std::endl;
+
+							}
+
+						}
+
+						else if (b >= a && b >= d)
+
+						{
+
+							if (a >= d)
+
+							{
+
+								std::cout << e << "\n" << c << "\n" << b << "\n" << a << "\n" << d << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << e << "\n" << c << "\n" << b << "\n" << d << "\n" << a << std::endl;
+
+							}
+
+						}
+
+						else
+
+						{
+
+							if (a >= b)
+
+							{
+
+								std::cout << e << "\n" << c << "\n" << d << "\n" << a << "\n" << b << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << e << "\n" << c << "\n" << d << "\n" << b << "\n" << a << std::endl;
+
+							}
+
+						}
+
+					}
+
+					else
+
+					{
+
+						if (a >= b && a >= c)
+
+						{
+
+							if (b >= c)
+
+							{
+
+								std::cout << e << "\n" << d << "\n" << a << "\n" << b << "\n" << c << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << e << "\n" << d << "\n" << a << "\n" << c << "\n" << b << std::endl;
+
+							}
+
+						}
+
+						else if (b >= a && b >= c)
+
+						{
+
+							if (a >= c)
+
+							{
+
+								std::cout << e << "\n" << d << "\n" << b << "\n" << a << "\n" << c << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << e << "\n" << d << "\n" << b << "\n" << c << "\n" << a << std::endl;
+
+							}
+
+						}
+
+						else
+
+						{
+
+							if (a >= b)
+
+							{
+
+								std::cout << e << "\n" << d << "\n" << c << "\n" << a << "\n" << b << std::endl;
+
+							}
+
+							else
+
+							{
+
+								std::cout << e << "\n" << d << "\n" << c << "\n" << b << "\n" << a << std::endl;
+
+							}
+
+						}
+
+					}
+
+				}
+
+			}
+
+			else
+
+			{
+
+				std::cout << a << "\n" << b << "\n" << c << "\n" << d << "\n" << e << std::endl;
+
+			}
+
+			break;
 		}
 		case '4':
 			//problem 4
@@ -289,7 +3275,16 @@ int main()
 		}
 			//problem 8
 		{
-
+			//a. True
+			//b. True
+			//c. False
+			//d. True
+			//e. True
+			//f. False
+			//g. True
+			//h. True
+			//i. False
+			//j. True
 		}
 			//problem 9
 		{
