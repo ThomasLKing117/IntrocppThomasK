@@ -2,7 +2,13 @@
 
 int main()
 {
-	//class work
+	char op;
+	std::cout << "Class work(1) or Home work(2)\n";
+	std::cin >> op;
+	switch (op)
+	{
+	case '1':
+		//class work
 	{
 		//MATTHEW
 		{
@@ -51,6 +57,39 @@ int main()
 				}
 			}
 		}
+		break;
+	}
+	case '2':
+		//home work
+	{
+		//problem 1
+		{
+			int numbers[10] = { 0, 0, 1, 0, 0, 1, 0, 0, 1, 1 }; // This is valid
+			//int matrix[5] = { 1, 2, 3, 4, 5, 6, 7 }; // This is invalid because it has to many assigned values
+			//double radii[10] = (3.2, 4.7}; // This is invlaid becasue its parenthesis and a scope operation
+			//int table[7] = { 2, , , 27, , 45, 39 }; // This is invalid because you cannot leave open spaces between commas
+			char codes[] = { 'A', 'X', '1', '2', 'S' }; // This is valid
+			//int blanks[]; // This is invalid because there are no assigned values
+			//int collection[-20]; // This is invalid because the index cannot contain a (-) sign
+			//int hours[3] = 8, 12, 16; // This is invalid because missing the scope operation
+		}
+		//problem 2
+		{
+			int values[] = { 2, 6, 10, 14 };
+			// a) cout << values[2]; // This will display the number 10
+			// b) cout << ++values[0] // This will diplay the number 3
+			// c) cout << values [1]++; // This will display the number 6
+			// d)x = 2;
+			//   cout << values[++x]; // This will display the number 12
+			// e) cout << values[4]; // There will be no assigned value for this index
+		}
+		//problem 3
+		{
+
+		}
+		break;
+	}
+	break;
 	}
 	system("pause");
 }
