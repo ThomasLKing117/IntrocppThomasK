@@ -88,8 +88,12 @@ int main()
 			int data[10];
 			for (int i = 10; i > 0; i--)
 			{
-				std::cout << i << std::endl;
+				data[i - 1] = i;
 			}
+		}
+		//problem 4
+		{
+
 		}
 		break;
 	}
