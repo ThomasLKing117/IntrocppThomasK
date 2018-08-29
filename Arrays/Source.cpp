@@ -93,7 +93,13 @@ int main()
 		}
 		//problem 4
 		{
-
+			int input[5];
+			std::cout << "Input five numbers" << std::endl;
+			for (int i = 0; input[i]; i++)
+			{
+				std::cin >> input[i];                 //Still woking on
+			}
+			std::cout << input[5] << std::endl;
 		}
 		break;
 	}
