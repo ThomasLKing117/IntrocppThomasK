@@ -79,13 +79,17 @@ int main()
 			// a) cout << values[2]; // This will display the number 10
 			// b) cout << ++values[0] // This will diplay the number 3
 			// c) cout << values [1]++; // This will display the number 6
-			// d)x = 2;
-			//   cout << values[++x]; // This will display the number 12
+			// d) x = 2;
+			//    cout << values[++x]; // This will display the number 12
 			// e) cout << values[4]; // There will be no assigned value for this index
 		}
 		//problem 3
 		{
-
+			int data[10];
+			for (int i = 10; i > 0; i--)
+			{
+				std::cout << i << std::endl;
+			}
 		}
 		break;
 	}
