@@ -109,13 +109,32 @@ int main()
 		//problem 5
 		{
 			int input[10];
-			int x;
+			int large;
+			int small;
 			std::cout << "Enter ten numbers" << std::endl;
 			for (int i = 0; i < 10; i++)
 			{
-				std::cin >> x;
-				input[i] = x;
+				std::cin >> input[i];
 			}
+			large = input[0];
+			small = input[0];
+			for (int i = 0; i < 10; i++)
+			{
+				if (input[i] > large)
+				{
+					large = input[i];
+				}
+				else if (input[i] < small)
+				{
+					small = input[i];
+				}
+			}
+			std::cout << "The largest number is..." << large << std::endl;
+			std::cout << "The smallest number is..." << small << std::endl;
+		}
+		//problem 6
+		{
+			
 		}
 		break;
 	}
