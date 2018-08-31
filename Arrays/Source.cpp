@@ -94,12 +94,28 @@ int main()
 		//problem 4
 		{
 			int input[5];
+			int x;
 			std::cout << "Input five numbers" << std::endl;
-			for (int i = 0; input[i]; i++)
+			for (int i = 0; i < 5; i++)
 			{
-				std::cin >> input[i];                 //Still woking on
+				std::cin >> x;
+				input[i] = x;
 			}
-			std::cout << input[5] << std::endl;
+			for (int i = 4; i >= 0; i--)
+			{
+				std::cout << input[i] << std::endl;
+			}
+		}
+		//problem 5
+		{
+			int input[10];
+			int x;
+			std::cout << "Enter ten numbers" << std::endl;
+			for (int i = 0; i < 10; i++)
+			{
+				std::cin >> x;
+				input[i] = x;
+			}
 		}
 		break;
 	}
