@@ -134,11 +134,73 @@ int main()
 		}
 		//problem 6
 		{
-			
+			int x = 1;
+			int y[3][3];
+			for (int i = 0; i < 3; i++)
+			{
+				for (int j = 0; j < 3; j++)
+				{
+					y[i][j] = x;
+					x++;
+				}
+			}
+			for (int i = 0; i < 3; i++)
+			{
+				for (int j = 0; j < 3; j++)
+				{
+					std::cout << y[i][j];
+				}
+				std::cout << std::endl;
+			}
 		}
 		//problem 7
 		{
-
+			int days[29][5];
+			int rows[29];
+			int columns[5];
+			int sum = 0;
+			for (int i = 0; i < 29; i++)
+			{
+				for (int j = 0; j < 5; j++)
+				{
+					days[i][j] = (i + 1) * (j + 1);
+				}
+			}
+			for (int i = 0; i < 29; i++)
+			{
+				for (int j = 0; j < 5; j++)
+				{
+					sum += days[i][j];
+				}
+				rows[i] = sum;
+				sum = 0;
+			}
+			for (int i = 0; i < 5; i++)
+			{
+				for (int j = 0; j < 29; j++)
+				{
+					sum += days[j][i];
+				}
+				columns[i] = sum;
+				sum = 0;
+			}
+			for (int i = 0; i < 29; i++)
+			{
+				for (int j = 0; j < 5; j++)
+				{
+					std::cout << days[i][j] << " ";
+				}
+				std::cout << std::endl;
+			}
+			for (int i = 0; i < 5; i++)
+			{
+				std::cout << columns[1] << " ";
+			}
+			std::cout << std::endl;
+			for (int i = 0; i < 29; i++)
+			{
+				std::cout << rows[i] << std::endl;
+			}
 		}
 		//problem 8
 		{
