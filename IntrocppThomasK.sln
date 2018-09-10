@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RecursiveFunctions", "Recur
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Functions", "Functions\Functions.vcxproj", "{F1573332-950A-4622-9174-7440CE44ACB5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Structures", "Structures\Structures.vcxproj", "{11C2812F-4483-4C12-9C24-CBD780232CEE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,6 +93,14 @@ Global
 		{F1573332-950A-4622-9174-7440CE44ACB5}.Release|x64.Build.0 = Release|x64
 		{F1573332-950A-4622-9174-7440CE44ACB5}.Release|x86.ActiveCfg = Release|Win32
 		{F1573332-950A-4622-9174-7440CE44ACB5}.Release|x86.Build.0 = Release|Win32
+		{11C2812F-4483-4C12-9C24-CBD780232CEE}.Debug|x64.ActiveCfg = Debug|x64
+		{11C2812F-4483-4C12-9C24-CBD780232CEE}.Debug|x64.Build.0 = Debug|x64
+		{11C2812F-4483-4C12-9C24-CBD780232CEE}.Debug|x86.ActiveCfg = Debug|Win32
+		{11C2812F-4483-4C12-9C24-CBD780232CEE}.Debug|x86.Build.0 = Debug|Win32
+		{11C2812F-4483-4C12-9C24-CBD780232CEE}.Release|x64.ActiveCfg = Release|x64
+		{11C2812F-4483-4C12-9C24-CBD780232CEE}.Release|x64.Build.0 = Release|x64
+		{11C2812F-4483-4C12-9C24-CBD780232CEE}.Release|x86.ActiveCfg = Release|Win32
+		{11C2812F-4483-4C12-9C24-CBD780232CEE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
