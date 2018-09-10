@@ -4,29 +4,39 @@
 struct Shop
 {
 	Stock swords;
-	int money;
+	int money = 1000;
 };
 
 struct Buyer
 {
-	int buy(Stock, int item)
-	{
-
-	}
-	int money;
+	int Buy(Item stock);
+	int Money = 500;
 };
 
 struct Item
 {
 	std::string name;
-	int price;
+	int price = 100;
 };
 
 struct Stock
 {
 	Item item;
-	int quantity;
+	int quantity = 10;
 };
+
+int main()
+{
+	Buyer josh;
+	Buyer tk;
+	Buyer robRiley;
+
+	Item swords;
+
+	Shop walGreens;
+
+	Stock stockSwords;
+}
 
 
 
