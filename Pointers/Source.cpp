@@ -4,13 +4,16 @@ void reverseArray(int* ptr, int size)
 {
 	int* first;
 	int* last;
+	int temp;
 	first = ptr;
 	last = first + (size - 1);
 
 	
 	for (int i = 0; i < size; i++)
 	{
+		temp = *first;
 		*first = *last;
+		*last = temp;
 	}
 }
 
