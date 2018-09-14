@@ -31,5 +31,9 @@ int main()
 		std::cout << "refToVariable:: " << refToVariable << std::endl;
 		std::cout << "variable:: " << variable << std::endl;
 		system("pause");
+		//problem 2
+		{
+
+		}
 	}
 }
