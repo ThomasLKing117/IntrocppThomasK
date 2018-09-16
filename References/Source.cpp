@@ -1,5 +1,29 @@
 #include <iostream>
 
+//problem 3a
+struct Numbers
+{
+	int a = 1;
+	int b = 2;
+	int c = 3;
+};
+
+void prob3(int& var1, int& var2, Numbers&)
+{
+	var1 = 0;
+	var2 = 100;
+	Numbers prob3C;
+	prob3C.a = 29;
+	prob3C.b = 77;
+}
+
+// problem 2a
+void prob2(int& var1, int& var2)
+{
+	var1 = 0;
+	var2 = 100;
+}
+
 int main()
 {
 	//problem 1
@@ -31,9 +55,29 @@ int main()
 		std::cout << "refToVariable:: " << refToVariable << std::endl;
 		std::cout << "variable:: " << variable << std::endl;
 		system("pause");
-		//problem 2
-		{
-
-		}
+		system("cls");
+	}
+	//problem 2
+	{
+		//b
+		int x = 117;
+		int y = 50;
+		prob2(x, y);
+		std::cout << "x is..." << x << "\n" << "y is..." << y << std::endl;
+		system("pause");
+		system("cls");
+	}
+	//problem 3
+	{
+		int x = 117;
+		int y = 50;
+		Numbers change;
+		prob3(x, y, change);
+		std::cout << "x is..." << x << "\n" << "y is..." << y << std::endl;
+		std::cout << "a is..." << change.a << std::endl;
+		std::cout << "b is..." << change.b << std::endl;
+		std::cout << "c is..." << change.c << std::endl;
+		system("pause");
+		system("cls");
 	}
 }
