@@ -120,4 +120,3 @@ int main()
 		contains(ptr, 'd');
 	}
 }
-//D.Write a function Contains(char* array, char search_value) which returns true if the 1st parameter contains the 2nd parameter, or false otherwise.
