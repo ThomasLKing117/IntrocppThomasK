@@ -6,14 +6,14 @@ private: //AF
 	int values[20];
 	int count = 0;
 public:
-	/*Stack()
+	Stack()
 	{
 	for (int& item : values)
 	{
 	item = -1;
 	}
 	count = 0;
-	}*/
+	}
 	bool isEmpty()
 	{
 
@@ -39,12 +39,12 @@ public:
 			std::cout << item << std::endl;
 		}
 	}
-	Stack(int);
-	Stack() = default;
+	/*Stack(int);
+	Stack() = default;*/
 };
 
-Stack::Stack(int) {}
-Stack x(-1);
+//Stack::Stack(int) {}
+//Stack x(-1);
 
 int main()
 {
