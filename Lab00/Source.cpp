@@ -2,6 +2,8 @@
 
 int main()
 {
-	//Game* g = new Game();
-	//g->Battle(, );
+	Hero IronMan;
+	Hero CaptainAmerica;
+	Game* g = new Game();
+	g->Battle(IronMan, CaptainAmerica);
 }

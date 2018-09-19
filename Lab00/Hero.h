@@ -4,10 +4,10 @@
 class Hero
 {
 private:
-	int mhealth;
+	int mhealth = 100;
 	int mPower;
 public:
-	void Fight(Hero&)
+	void Fight(Hero& h)
 	{
 
 	}
