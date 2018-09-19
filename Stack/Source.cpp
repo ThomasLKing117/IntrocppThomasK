@@ -6,6 +6,14 @@ private: //AF
 	int values[20];
 	int count = 0;
 public:
+	/*Stack()
+	{
+	for (int& item : values)
+	{
+	item = -1;
+	}
+	count = 0;
+	}*/
 	bool isEmpty()
 	{
 
