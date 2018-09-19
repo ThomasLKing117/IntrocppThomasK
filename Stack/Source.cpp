@@ -8,11 +8,10 @@ private: //AF
 public:
 	Stack()
 	{
-	for (int& item : values)
-	{
-	item = -1;
-	}
-	count = 0;
+		for (int& item : values)
+		{
+		item = -1;
+		}
 	}
 	bool isEmpty()
 	{
@@ -39,12 +38,7 @@ public:
 			std::cout << item << std::endl;
 		}
 	}
-	/*Stack(int);
-	Stack() = default;*/
 };
-
-//Stack::Stack(int) {}
-//Stack x(-1);
 
 int main()
 {
@@ -65,8 +59,8 @@ int main()
 	}
 }
 //Where do i go from here?
-//1. Default constructor	(Fail)
-//2. Default initialize to -1	(Fail)
+//1. Default constructor	(Success)
+//2. Default initialize to -1	(Success)
 //3. Paramartized constructor to allow for arbitrary stack sizes	(Did not get to do)
 //4. Check if stack is empty	(Did not get to do)
 //5. Check if stack is full    (Did not get to do)
