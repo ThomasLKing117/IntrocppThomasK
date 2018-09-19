@@ -42,10 +42,12 @@ public:
 
 int main()
 {
+	int inputNum = 0;
 	Stack stack;
 	for (int i = 0; i < 20; i++)
 	{
-		stack.push(i);
+		std::cin >> inputNum;
+		stack.push(inputNum);
 		stack.printInfo();
 		system("pause");
 		system("cls");
