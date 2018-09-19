@@ -16,7 +16,7 @@ public:
 	}
 	void pop()
 	{
-		values[count] = - 1;
+		values[count - 1] = -1;
 		count = count - 1;
 	}
 	void push(int value)
@@ -31,19 +31,24 @@ public:
 			std::cout << item << std::endl;
 		}
 	}
+	Stack(int);
+	Stack() = default;
 };
+
+Stack::Stack(int) {}
+Stack x(-1);
 
 int main()
 {
 	Stack stack;
-	for (int i = 0; i < 7; i++)
+	for (int i = 0; i < 20; i++)
 	{
 		stack.push(i);
 		stack.printInfo();
 		system("pause");
 		system("cls");
 	}
-	for (int i = 0; i < 3; i++)
+	for (int i = 0; i < 20; i++)
 	{
 		stack.pop();
 		stack.printInfo();
@@ -52,8 +57,8 @@ int main()
 	}
 }
 //Where do i go from here?
-//1. Default constructor
-//2. Default initialize to -1
-//3. Paramartized constructor to allow for arbrtraray stack sizes
-//4. Check if stack is empty
-//5. Check if stack is full
+//1. Default constructor	(Fail)
+//2. Default initialize to -1	(Fail)
+//3. Paramartized constructor to allow for arbitrary stack sizes	(Did not get to do)
+//4. Check if stack is empty	(Did not get to do)
+//5. Check if stack is full    (Did not get to do)
