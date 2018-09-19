@@ -6,11 +6,10 @@
 class Hero
 {
 private:
-	int mhealth = 100;
+	int mHealth = 100;
 	int mPower = rand() % 100 + 1;
 public:
-	void Fight(Hero& h)
-	{
-		
-	}
+	void Fight(Hero&);
+	bool IsAlive();
+	void TakeDamage(int);
 };
