@@ -7,3 +7,5 @@ int main()
 	Game* g = new Game();
 	g->Battle(IronMan, CaptainAmerica);
 }
+//srand(time(NULL));
+//mPower = rand() % 100 + 1;
