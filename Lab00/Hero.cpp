@@ -9,6 +9,6 @@ bool Hero::IsAlive()
 	return mHealth > 0;
 }
 void Hero::TakeDamage(int amount)
-{
+{ 
 	mHealth -= amount;
 }

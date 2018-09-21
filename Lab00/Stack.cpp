@@ -7,11 +7,15 @@ Hero Stack::Top()
 
 bool Stack::pop()
 {
+	mData[mCount - 1];
+	mCount--;
 	return false;
 }
 
 bool Stack::push(Hero *)
 {
+	mData[mCount];
+	mCount++;
 	return false;
 }
 
