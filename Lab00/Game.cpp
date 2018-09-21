@@ -12,6 +12,9 @@ Hero Game::Battle(Hero &hero1, Hero &hero2)
 	{
 		std::cout << "Iron Man " << hero1 << std::endl;
 		std::cout << "Captain America " << hero2 << std::endl;
+		std::cout << std::endl;
+		system("pause");
+		std::cout << std::endl;
 		hero1.Fight(hero2);
 		hero2.Fight(hero1);
 	}
