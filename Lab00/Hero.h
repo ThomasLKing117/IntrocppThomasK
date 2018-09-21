@@ -12,4 +12,7 @@ public:
 	void Fight(Hero&);
 	bool IsAlive();
 	void TakeDamage(int);
+	int GetHealth();
+	int GetPower();
+	friend std::ostream& operator<<(std::ostream os, const Hero& hero);
 };

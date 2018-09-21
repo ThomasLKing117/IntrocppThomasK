@@ -12,3 +12,12 @@ void Hero::TakeDamage(int amount)
 { 
 	mHealth -= amount;
 }
+
+int Hero::GetHealth()
+{
+	return mHealth;
+}
+int Hero::GetPower()
+{
+	return mPower;
+}

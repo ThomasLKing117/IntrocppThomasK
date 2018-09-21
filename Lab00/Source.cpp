@@ -2,6 +2,7 @@
 
 int main()
 {
+	srand(time(NULL));
 	Hero IronMan;
 	Hero CaptainAmerica;
 	Game* g = new Game();
