@@ -13,4 +13,5 @@ Hero Game::Battle(Hero &hero1, Hero &hero2)
 	{
 		return hero2;
 	}
+	return Hero();
 }

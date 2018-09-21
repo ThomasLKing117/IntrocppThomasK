@@ -21,6 +21,10 @@ bool Stack::push(Hero *)
 
 bool Stack::isEmpty()
 {
+	if (mData == 0)
+	{
+		return true;
+	}
 	return false;
 }
 
