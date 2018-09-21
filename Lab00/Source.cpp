@@ -11,20 +11,3 @@ int main()
 }
 //srand(time(NULL));
 //mPower = rand() % 100 + 1;
-
-//void Fight(Hero& hero)
-//{
-//	mHealth = mHealth - mPower;
-//}
-
-//bool push(Hero*)
-//{
-//	mData[mCount];
-//	mCount = mCount + 1;
-//}
-
-//bool pop()
-//{
-//	mData[mCount - 1];
-//	mCount = mCount - 1;
-//}
