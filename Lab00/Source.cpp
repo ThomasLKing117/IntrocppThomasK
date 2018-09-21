@@ -10,5 +10,3 @@ int main()
 	system("pause");
 	return 0;
 }
-//srand(time(NULL));
-//mPower = rand() % 100 + 1;
