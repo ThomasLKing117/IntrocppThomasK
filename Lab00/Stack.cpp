@@ -12,9 +12,9 @@ bool Stack::pop()
 	return false;
 }
 
-bool Stack::push(Hero *)
+bool Stack::push(Hero *hero)
 {
-	mData[mCount];
+	mData[mCount] = *hero;
 	mCount++;
 	return false;
 }
