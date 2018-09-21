@@ -29,11 +29,15 @@
     <ClInclude Include="Hero.h" />
     <ClInclude Include="Stack.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMeFirst.txt" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{020B2C4B-075B-4265-A962-0227F68BCEB0}</ProjectGuid>
     <RootNamespace>Lab00</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <ProjectName>MarvelVsMarvel</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
