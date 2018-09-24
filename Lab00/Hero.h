@@ -9,15 +9,13 @@ class Hero
 private:
 	int mHealth = 100;
 	int mPower = rand() % 100 + 1;
-	const char* mName;
 public:
-	Hero(const char* name);
+	Hero();
 	void Fight(Hero&);
 	bool IsAlive();
 	void TakeDamage(int);
 	int GetHealth();
 	int GetPower();
-	char GetName();
 	friend std::ostream& operator<<(std::ostream os, const Hero& hero);
 	bool operator == (const Hero&);
 };

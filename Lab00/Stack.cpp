@@ -2,7 +2,7 @@
 #include "Hero.h"
 Hero Stack::Top()
 {
-	return 0;
+	return Hero();
 }
 
 bool Stack::pop()

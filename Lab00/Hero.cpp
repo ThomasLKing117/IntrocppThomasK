@@ -1,8 +1,8 @@
 #include "Hero.h"
 
-Hero::Hero(const char* name)
+Hero::Hero()
 {
-	mName = name;
+
 }
 
 void Hero::Fight(Hero &hero)
@@ -28,9 +28,4 @@ int Hero::GetHealth()
 int Hero::GetPower()
 {
 	return mPower;
-}
-
-char Hero::GetName()
-{
-	return *mName;
 }

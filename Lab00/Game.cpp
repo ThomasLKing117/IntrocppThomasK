@@ -2,7 +2,7 @@
 
 std::ostream& operator<<(std::ostream& os, Hero& hero)
 {
-	os << hero.GetName() << " " << hero.GetHealth() << " " << hero.GetPower();
+	os << hero.GetHealth() << " " << hero.GetPower();
 	return os;
 }
 
@@ -35,19 +35,19 @@ Hero Game::Battle(Hero &hero1, Hero &hero2)
 	if (hero1.IsAlive())
 	{
 		std::cout << std::endl;
-		std::cout << hero1.GetName() << " Wins!!!" << std::endl;
+		std::cout << hero1 << " Wins!!!" << std::endl;
 		std::cout << std::endl;
 		return hero1;
 	}
 	if (hero2.IsAlive())
 	{
 		std::cout << std::endl;
-		std::cout << hero2.GetName() << " Wins!!!" << std::endl;
+		std::cout << hero2 << " Wins!!!" << std::endl;
 		std::cout << std::endl;
 		return hero2;
 	}
 	std::cout << std::endl;
 	std::cout << "They both lost???" << std::endl;
 	std::cout << std::endl;
-	return 0;
+	return Hero();
 }
