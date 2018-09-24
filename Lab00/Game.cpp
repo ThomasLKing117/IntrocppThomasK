@@ -26,8 +26,14 @@ Hero Game::Battle(Hero &hero1, Hero &hero2)
 		std::cout << std::endl;
 		system("pause");
 		std::cout << std::endl;
-		hero1.Fight(hero2);
-		hero2.Fight(hero1);
+		if (hero1.IsAlive())
+		{
+			hero1.Fight(hero2);
+		}
+		if (hero2.IsAlive())
+		{
+			hero2.Fight(hero1);
+		}
 		std::cout << "Iron Man " << hero1 << std::endl;
 		std::cout << "Captain America " << hero2 << std::endl;
 	}
@@ -38,7 +44,7 @@ Hero Game::Battle(Hero &hero1, Hero &hero2)
 		std::cout << std::endl;
 		return hero1;
 	}
-	else if (hero2.IsAlive())
+	if (hero2.IsAlive())
 	{
 		std::cout << std::endl;
 		std::cout << "Captain America Won!!!" << std::endl;
