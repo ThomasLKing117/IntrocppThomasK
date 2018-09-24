@@ -10,15 +10,14 @@ class Hero
 private:
 	int mHealth;
 	int mPower;
-	char mName[255];
+	char* mName;
 public:
 	Hero();
-	char GetName(char);
+	char* GetName();
 	void Fight(Hero&);
 	bool IsAlive();
 	void TakeDamage(int);
 	int GetHealth();
 	int GetPower();
-	friend std::ostream& operator<<(std::ostream os, const Hero& hero);
 	bool operator == (const Hero&);
 };

@@ -1,11 +1,5 @@
 #include "Game.h"
 
-std::ostream& operator<<(std::ostream& os, Hero& hero)
-{
-	os << hero.GetHealth() << " " << hero.GetPower();
-	return os;
-}
-
 bool Hero::operator==(const Hero& other)
 {
 	return this->mHealth == other.mHealth && this->mPower == other.mPower;
@@ -13,8 +7,8 @@ bool Hero::operator==(const Hero& other)
 
 Hero Game::Battle(Hero &hero1, Hero &hero2)
 {
-	std::cout << hero1 << std::endl;
-	std::cout << hero2 << std::endl;
+	std::cout << "" << hero1.GetHealth() << " " << hero1.GetPower() << std::endl;
+	std::cout << "" << hero2.GetHealth() << " " << hero2.GetPower() << std::endl;
 
 	while (hero1.IsAlive() && hero2.IsAlive())
 	{
@@ -29,20 +23,20 @@ Hero Game::Battle(Hero &hero1, Hero &hero2)
 		{
 			hero2.Fight(hero1);
 		}
-		std::cout << hero1 << std::endl;
-		std::cout << hero2 << std::endl;
+		std::cout << "" << hero1.GetHealth() << std::endl;
+		std::cout << "" << hero2.GetHealth() << std::endl;
 	}
 	if (hero1.IsAlive())
 	{
 		std::cout << std::endl;
-		std::cout << hero1 << " Wins!!!" << std::endl;
+		std::cout << "" <<hero1.GetHealth() << " Wins!!!" << std::endl;
 		std::cout << std::endl;
 		return hero1;
 	}
 	if (hero2.IsAlive())
 	{
 		std::cout << std::endl;
-		std::cout << hero2 << " Wins!!!" << std::endl;
+		std::cout << "" <<hero2.GetHealth() << " Wins!!!" << std::endl;
 		std::cout << std::endl;
 		return hero2;
 	}

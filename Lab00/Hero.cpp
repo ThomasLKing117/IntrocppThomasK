@@ -4,13 +4,12 @@ Hero::Hero()
 {
 	mHealth = 100;
 	mPower = rand() % 100 + 1;
-	mName[255];
+	*mName;
 }
 
-char Hero::GetName(char name)
+char* Hero::GetName()
 {
-	mName[255] = name;
-	return mName[255];
+	return mName;
 }
 
 void Hero::Fight(Hero &hero)
