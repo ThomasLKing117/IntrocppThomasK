@@ -10,10 +10,11 @@ class Hero
 private:
 	int mHealth;
 	int mPower;
-	char* mName;
+	const char* mName;
 public:
 	Hero();
-	char* GetName();
+	void GetName(const char*);
+	void PrintName();
 	void Fight(Hero&);
 	bool IsAlive();
 	void TakeDamage(int);
