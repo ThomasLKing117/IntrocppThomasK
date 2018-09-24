@@ -2,7 +2,15 @@
 
 Hero::Hero()
 {
+	mHealth = 100;
+	mPower = rand() % 100 + 1;
+	mName[255];
+}
 
+char Hero::GetName(char name)
+{
+	mName[255] = name;
+	return mName[255];
 }
 
 void Hero::Fight(Hero &hero)

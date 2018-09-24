@@ -3,14 +3,17 @@
 #include <string>
 #include <cstdlib> 
 #include <ctime> 
+#include <string>
 
 class Hero
 {
 private:
-	int mHealth = 100;
-	int mPower = rand() % 100 + 1;
+	int mHealth;
+	int mPower;
+	char mName[255];
 public:
 	Hero();
+	char GetName(char);
 	void Fight(Hero&);
 	bool IsAlive();
 	void TakeDamage(int);
