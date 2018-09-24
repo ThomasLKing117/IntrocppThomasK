@@ -21,7 +21,7 @@ bool Stack::push(Hero *hero)
 
 bool Stack::isEmpty()
 {
-	if (mData == 0)
+	if (mCount == 0)
 	{
 		return true;
 	}
@@ -30,5 +30,9 @@ bool Stack::isEmpty()
 
 bool Stack::isFull()
 {
+	if (mCount == 20)
+	{
+		return true;
+	}
 	return false;
 }
