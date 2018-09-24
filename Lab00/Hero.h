@@ -15,4 +15,8 @@ public:
 	int GetHealth();
 	int GetPower();
 	friend std::ostream& operator<<(std::ostream os, const Hero& hero);
+	bool operator == (Hero& other)
+	{
+		return mHealth == other.mHealth;
+	}
 };
