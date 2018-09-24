@@ -1,6 +1,5 @@
 #pragma once
-#include "Game.h"
-
+#include "Hero.h"
 class Stack
 {
 private:

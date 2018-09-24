@@ -1,5 +1,10 @@
 #include "Hero.h"
 
+Hero::Hero(const char* name)
+{
+	mName = name;
+}
+
 void Hero::Fight(Hero &hero)
 {
 	hero.TakeDamage(mPower);
@@ -11,7 +16,7 @@ bool Hero::IsAlive()
 }
 
 void Hero::TakeDamage(int amount)
-{ 
+{
 	mHealth -= amount;
 }
 
@@ -23,4 +28,9 @@ int Hero::GetHealth()
 int Hero::GetPower()
 {
 	return mPower;
+}
+
+char Hero::GetName()
+{
+	return *mName;
 }

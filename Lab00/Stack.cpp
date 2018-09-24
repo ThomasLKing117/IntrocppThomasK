@@ -1,8 +1,8 @@
 #include "Stack.h"
-
+#include "Hero.h"
 Hero Stack::Top()
 {
-	return Hero();
+	return 0;
 }
 
 bool Stack::pop()
