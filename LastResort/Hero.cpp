@@ -4,7 +4,7 @@ Hero::Hero()
 {
 	mHealth = 100;
 	mPower = rand() % 50 + 1;
-	mName = new char [255];
+	mName = new char[255];
 }
 
 void Hero::GetName(const char* name)
