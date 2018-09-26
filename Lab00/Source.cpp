@@ -59,7 +59,7 @@ int main()
 	team2->push(hero10);
 	team2->push(hero12);
 
-	while (!(team1->isEmpty()) && !(team2->isEmpty()))
+	/*while (!(team1->isEmpty()) && !(team2->isEmpty()))
 	{
 		Hero hero1 = team1->Top();
 		Hero hero2 = team2->Top();
@@ -70,7 +70,7 @@ int main()
 		std::cout << " " << hero2.GetHealth() << " " << hero2.GetPower() << std::endl;
 
 		Hero result = g->Battle(hero1, hero2);
-	}
+	}*/
 
 	/*while (!(team1->isEmpty()) && !(team2->isEmpty()))
 	{
