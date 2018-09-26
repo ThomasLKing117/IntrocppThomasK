@@ -15,7 +15,7 @@ public:
 	Hero();
 	void GetName(const char*);
 	void PrintName();
-	void Fight(Hero&);
+	void Fight(Hero*);
 	bool IsAlive();
 	void TakeDamage(int);
 	int GetHealth();

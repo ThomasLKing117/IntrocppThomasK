@@ -43,28 +43,28 @@ int main()
 	Hero* hero12 = new Hero;
 	hero12->GetName("Scarlet Witch");
 
-	Stack team1;
-	team1.push(hero1);
-	team1.push(hero3);
-	team1.push(hero5);
-	team1.push(hero7);
-	team1.push(hero9);
-	team1.push(hero11);
+	Stack* team1 = new Stack;
+	team1->push(hero1);
+	team1->push(hero3);
+	team1->push(hero5);
+	team1->push(hero7);
+	team1->push(hero9);
+	team1->push(hero11);
 
-	Stack team2;
-	team2.push(hero2);
-	team2.push(hero4);
-	team2.push(hero6);
-	team2.push(hero8);
-	team2.push(hero10);
-	team2.push(hero12);
+	Stack* team2 = new Stack;
+	team2->push(hero2);
+	team2->push(hero4);
+	team2->push(hero6);
+	team2->push(hero8);
+	team2->push(hero10);
+	team2->push(hero12);
 
-	while ()
+	while (!(team1->isEmpty()) && !(team2->isEmpty()))
 	{
-		team1.Top().Fight(team2.Top());
-		team2.Top().Fight(team1.Top());
-		team1.pop();
-		team2.pop();
+		team1->Top().Fight(&team2->Top());
+		team2->Top().Fight(&team1->Top());
+		team1->pop();
+		team2->pop();
 	}
 	//Then place all heros back on their team in the descending order according to health
 	

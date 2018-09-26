@@ -17,9 +17,9 @@ void Hero::PrintName()
 	std::cout << mName;
 }
 
-void Hero::Fight(Hero &hero)
+void Hero::Fight(Hero* hero)
 {
-	hero.TakeDamage(mPower);
+	hero->TakeDamage(mPower);
 }
 
 bool Hero::IsAlive()
