@@ -1,10 +1,5 @@
 #include "Game.h"
 
-bool Hero::operator==(const Hero& other)
-{
-	return this->mHealth == other.mHealth && this->mPower == other.mPower;
-}
-
 Hero Game::Battle(Hero &hero1, Hero &hero2)
 {
 	hero1.PrintName();

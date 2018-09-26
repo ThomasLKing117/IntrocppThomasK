@@ -20,5 +20,4 @@ public:
 	void TakeDamage(int);
 	int GetHealth();
 	int GetPower();
-	bool operator == (const Hero&);
 };

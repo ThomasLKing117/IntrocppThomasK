@@ -3,7 +3,7 @@
 class Stack
 {
 private:
-	Hero mData[20];
+	Hero mData[6];
 	int mCount;
 public:
 	Hero Top();

@@ -3,7 +3,7 @@
 Hero::Hero()
 {
 	mHealth = 100;
-	mPower = rand() % 100 + 1;
+	mPower = rand() % 26;
 	mName = new char [255];
 }
 
