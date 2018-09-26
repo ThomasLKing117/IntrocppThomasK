@@ -2,7 +2,7 @@
 #include "Hero.h"
 Hero Stack::Top()
 {
-	return Hero();
+	return mData[mCount];
 }
 
 bool Stack::pop()
@@ -30,7 +30,7 @@ bool Stack::isEmpty()
 
 bool Stack::isFull()
 {
-	if (mCount == 20)
+	if (mCount == 6)
 	{
 		return true;
 	}
