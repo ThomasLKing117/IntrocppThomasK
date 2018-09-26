@@ -58,9 +58,16 @@ int main()
 	team2.push(hero8);
 	team2.push(hero10);
 	team2.push(hero12);
+
+	while (!(team1.isEmpty()) && !(team2.isEmpty))
+	{
+		//have hero pop off stack and attack random enemy
+		team1.pop();
+		//repeat in alternating order until all heros have attacked
+		//Then place all heros back on their team in the descending order according to health
+	}
 	
 	system("pause");
-	
 	return 0;
 }
 /*

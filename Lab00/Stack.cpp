@@ -9,14 +9,14 @@ bool Stack::pop()
 {
 	mData[mCount - 1];
 	mCount--;
-	return false;
+	return true;
 }
 
 bool Stack::push(Hero *hero)
 {
 	mData[mCount] = *hero;
 	mCount++;
-	return false;
+	return true;
 }
 
 bool Stack::isEmpty()

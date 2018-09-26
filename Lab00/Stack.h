@@ -4,7 +4,7 @@ class Stack
 {
 private:
 	Hero mData[6];
-	int mCount;
+	int mCount = 0;
 public:
 	Hero Top();
 	bool pop();
