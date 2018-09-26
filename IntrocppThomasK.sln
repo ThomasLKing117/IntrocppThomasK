@@ -29,7 +29,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class", "Class\Class.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Stack", "Stack\Stack.vcxproj", "{EB5A8AB2-F05F-454A-A3A1-557441E58357}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lab00", "Lab00\Lab00.vcxproj", "{020B2C4B-075B-4265-A962-0227F68BCEB0}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MarvelVsMarvel", "Lab00\Lab00.vcxproj", "{020B2C4B-075B-4265-A962-0227F68BCEB0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MorningWarmUp", "MorningWarmUp\MorningWarmUp.vcxproj", "{6FF7E56C-7440-478D-846E-B7F66CD26B45}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -151,6 +153,14 @@ Global
 		{020B2C4B-075B-4265-A962-0227F68BCEB0}.Release|x64.Build.0 = Release|x64
 		{020B2C4B-075B-4265-A962-0227F68BCEB0}.Release|x86.ActiveCfg = Release|Win32
 		{020B2C4B-075B-4265-A962-0227F68BCEB0}.Release|x86.Build.0 = Release|Win32
+		{6FF7E56C-7440-478D-846E-B7F66CD26B45}.Debug|x64.ActiveCfg = Debug|x64
+		{6FF7E56C-7440-478D-846E-B7F66CD26B45}.Debug|x64.Build.0 = Debug|x64
+		{6FF7E56C-7440-478D-846E-B7F66CD26B45}.Debug|x86.ActiveCfg = Debug|Win32
+		{6FF7E56C-7440-478D-846E-B7F66CD26B45}.Debug|x86.Build.0 = Debug|Win32
+		{6FF7E56C-7440-478D-846E-B7F66CD26B45}.Release|x64.ActiveCfg = Release|x64
+		{6FF7E56C-7440-478D-846E-B7F66CD26B45}.Release|x64.Build.0 = Release|x64
+		{6FF7E56C-7440-478D-846E-B7F66CD26B45}.Release|x86.ActiveCfg = Release|Win32
+		{6FF7E56C-7440-478D-846E-B7F66CD26B45}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
