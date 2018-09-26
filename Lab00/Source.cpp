@@ -59,18 +59,20 @@ int main()
 	team2->push(hero10);
 	team2->push(hero12);
 
-	/*while (!(team1->isEmpty()) && !(team2->isEmpty()))
+	while (!(team1->isEmpty()) && !(team2->isEmpty()))
 	{
-		Hero hero1 = team1->Top();
-		Hero hero2 = team2->Top();
+		Hero Top1 = team1->Top();
+		Hero Top2 = team2->Top();
 
-		hero1.PrintName();
-		std::cout << " " << hero1.GetHealth() << " " << hero1.GetPower() << std::endl;
-		hero2.PrintName();
-		std::cout << " " << hero2.GetHealth() << " " << hero2.GetPower() << std::endl;
+		Top1.PrintName();
+		std::cout << " " << Top1.GetHealth() << " " << Top1.GetPower() << std::endl;
+		Top2.PrintName();
+		std::cout << " " << Top2.GetHealth() << " " << Top2.GetPower() << std::endl;
 
-		Hero result = g->Battle(hero1, hero2);
-	}*/
+		Hero result = g->Battle(Top1, Top2);
+		system("pause");
+		system("cls");
+	}
 
 	/*while (!(team1->isEmpty()) && !(team2->isEmpty()))
 	{

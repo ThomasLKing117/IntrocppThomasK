@@ -14,7 +14,7 @@ void Hero::GetName(const char* name)
 
 void Hero::PrintName()
 {
-	std::cout << mName;
+	std::cout << &mName;
 }
 
 void Hero::Fight(Hero* hero)
