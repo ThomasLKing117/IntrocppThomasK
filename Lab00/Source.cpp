@@ -59,7 +59,7 @@ int main()
 	team2->push(hero10);
 	team2->push(hero12);
 
-	while (!(team1->isEmpty()) && !(team2->isEmpty()))
+	/*while (!(team1->isEmpty()) && !(team2->isEmpty()))
 	{
 		Hero Top1 = team1->Top();
 		Hero Top2 = team2->Top();
@@ -72,15 +72,12 @@ int main()
 		Hero result = g->Battle(Top1, Top2);
 		system("pause");
 		system("cls");
-	}
-
-	/*while (!(team1->isEmpty()) && !(team2->isEmpty()))
-	{
-		team1->Top().Fight(&team2->Top());
-		team2->Top().Fight(&team1->Top());
-		team1->pop();
-		team2->pop();
 	}*/
+
+	while (!(team1->isEmpty()) && !(team2->isEmpty()))
+	{
+		g->Battle(&team1->Top(), &team2->Top());
+	}
 	//Then place all heros back on their team in the descending order according to health
 
 	system("pause");
