@@ -30,6 +30,7 @@ Hero Game::Battle(Hero &hero1, Hero &hero2)
 		std::cout << std::endl;
 		hero1.PrintName();
 		std::cout << " Wins!!!" << std::endl;
+		std::cout << "Winning the game for team 1\n";
 		std::cout << std::endl;
 		return hero1;
 	}
@@ -38,6 +39,7 @@ Hero Game::Battle(Hero &hero1, Hero &hero2)
 		std::cout << std::endl;
 		hero2.PrintName();
 		std::cout << " Wins!!!" << std::endl;
+		std::cout << "Winning the game for team 2\n";
 		std::cout << std::endl;
 		return hero2;
 	}
