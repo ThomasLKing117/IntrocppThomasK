@@ -6,6 +6,10 @@ int main()
 {
 	char input = '+';
 
+	std::cout << "Hello user\n" << "The only thing you need to do in order to run this program is to \nsimply do what the program tells you to do when prompted\n";
+	system("pause");
+	system("cls");
+
 	while (input == '+')
 	{
 		srand(time(NULL));
