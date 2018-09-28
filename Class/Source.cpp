@@ -1,7 +1,5 @@
 #include <iostream>
 
-
-
 //class Fighter
 //{
 //private:
@@ -17,3 +15,8 @@
 //	Fighter* ryu = new Fighter();
 //	ryu->DoDamage(*ryu);
 //} 
+
+int main()
+{
+	return 0;
+}
