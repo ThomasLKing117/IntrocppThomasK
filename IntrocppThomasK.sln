@@ -33,8 +33,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lab00", "Lab00\Lab00.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Inheritance", "Inheritance\Inheritance.vcxproj", "{4AC9905D-969B-418F-9865-CDF0859722D8}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Templates", "Templates\Templates.vcxproj", "{01E88F2B-D774-4058-B5C4-68CBF2DB3426}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -163,14 +161,6 @@ Global
 		{4AC9905D-969B-418F-9865-CDF0859722D8}.Release|x64.Build.0 = Release|x64
 		{4AC9905D-969B-418F-9865-CDF0859722D8}.Release|x86.ActiveCfg = Release|Win32
 		{4AC9905D-969B-418F-9865-CDF0859722D8}.Release|x86.Build.0 = Release|Win32
-		{01E88F2B-D774-4058-B5C4-68CBF2DB3426}.Debug|x64.ActiveCfg = Debug|x64
-		{01E88F2B-D774-4058-B5C4-68CBF2DB3426}.Debug|x64.Build.0 = Debug|x64
-		{01E88F2B-D774-4058-B5C4-68CBF2DB3426}.Debug|x86.ActiveCfg = Debug|Win32
-		{01E88F2B-D774-4058-B5C4-68CBF2DB3426}.Debug|x86.Build.0 = Debug|Win32
-		{01E88F2B-D774-4058-B5C4-68CBF2DB3426}.Release|x64.ActiveCfg = Release|x64
-		{01E88F2B-D774-4058-B5C4-68CBF2DB3426}.Release|x64.Build.0 = Release|x64
-		{01E88F2B-D774-4058-B5C4-68CBF2DB3426}.Release|x86.ActiveCfg = Release|Win32
-		{01E88F2B-D774-4058-B5C4-68CBF2DB3426}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
