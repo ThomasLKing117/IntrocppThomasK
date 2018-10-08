@@ -6,7 +6,7 @@ public:
 	int mfuel;
 protected:
 	int speed;
+	virtual void move() = 0;
 public:
 	int wheels;
-	virtual int move() = 0;
 };
