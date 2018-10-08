@@ -5,5 +5,5 @@ class Plane :TransportVehicle
 private:
 	void Fly();
 protected:
-	void move();
+	virtual void Move();
 };

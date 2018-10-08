@@ -5,5 +5,5 @@ class Car : TransportVehicle
 private:
 	void Drive();
 protected:
-	void move();
+	virtual void Move();
 };

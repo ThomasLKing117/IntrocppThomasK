@@ -5,5 +5,5 @@ class Bike : TransportVehicle
 private:
 	void Pedal();
 protected:
-	void move();
+	virtual void Move();
 };

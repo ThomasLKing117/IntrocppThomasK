@@ -2,11 +2,10 @@
 
 class TransportVehicle
 {
-public:
-	int mfuel;
 protected:
 	int speed;
-	virtual void move() = 0;
+	int fuel;
+	virtual void Move() = 0;
 public:
 	int wheels;
 };
