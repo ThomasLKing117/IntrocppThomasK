@@ -6,4 +6,6 @@ private:
 	void Drive();
 protected:
 	virtual void Move();
+public:
+	Car();
 };

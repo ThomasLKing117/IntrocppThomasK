@@ -6,4 +6,6 @@ private:
 	void Fly();
 protected:
 	virtual void Move();
+public:
+	Plane();
 };

@@ -6,4 +6,6 @@ private:
 	void Pedal();
 protected:
 	virtual void Move();
+public:
+	Bike();
 };
